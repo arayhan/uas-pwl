@@ -1,7 +1,7 @@
 @extends('adminlte::page')
 @section('title', 'Tambah User')
 @section('content_header')
-    <h1 class="m-0 text-dark">Tambah User</h1>
+    <h1 class="m-0 text-dark">Tambah Peserta Vaksin</h1>
 @stop
 @section('content')
     <form action="{{route('users.store')}}" method="post">

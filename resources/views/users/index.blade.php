@@ -1,7 +1,7 @@
 @extends('adminlte::page')
 @section('title', 'List User')
 @section('content_header')
-    <h1 class="m-0 text-dark">List User</h1>
+    <h1 class="m-0 text-dark">List Peserta Vaksin</h1>
 @stop
 @section('content')
     <div class="row">
@@ -17,6 +17,7 @@
                             <th>No.</th>
                             <th>Nama</th>
                             <th>Email</th>
+                            <th>Status</th>
                             <th>Opsi</th>
                         </tr>
                         </thead>
@@ -26,6 +27,9 @@
                                 <td>{{$key+1}}</td>
                                 <td>{{$user->name}}</td>
                                 <td>{{$user->email}}</td>
+                                <td>
+                                    Belum Divaksin
+                                </td>
                                 <td>
                                     <a href="{{route('users.edit', $user)}}" class="btn btn-primary btn-xs">
                                         Edit
