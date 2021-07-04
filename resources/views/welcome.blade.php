@@ -26,7 +26,7 @@
                 <h1 class="mb-3 text-center md:text-left text-white text-5xl font-bold">Vaksinasi Online</h1>
                 <p class="mb-8 text-center md:text-left text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod perspiciatis, architecto animi, temporibus dolores excepturi blanditiis maxime itaque nulla aspernatur ipsam mollitia? Quisquam, repellendus libero ullam omnis dolorem porro magni.</p>
                 <div class="text-center md:text-left">
-                    <a class="inline-block font-semibold py-3 px-10 bg-white text-red-700 rounded-md hover:bg-gray-300 transition-all" href="/login">Login</a>
+                    <a class="inline-block font-semibold py-3 px-10 bg-white text-red-700 rounded-md hover:bg-gray-300 transition-all" href="/register">Daftar Sekarang</a>
                 </div>
             </div>
             <div class="md:w-1/2 flex items-center justify-center logo">
